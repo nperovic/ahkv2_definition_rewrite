@@ -13018,34 +13018,19 @@ class Menu extends Object {
      * @description {@link https://www.autohotkey.com/docs/v2/lib/Menu.htm#AddStandard|`AddStandard()`}  
      * Adds the standard tray menu items.  
      * @returns {(String)}  
-     * An empty string is always returned.  
-     * | Menu Item        | ID |
-     * |------------------|----|
-     * | &Open            | 1  |
-     * | &Help            | 2  |
-     * | &Window Spy      | 4  |
-     * | &Reload Script   | 5  |
-     * | &Edit Script     | 6  |
-     * | &Suspend Hotkeys | 8  |
-     * | &Pause Script    | 9  |
+     * An empty string is always returned.
+     * |                  |    |
+     * |------------------|---:|
+     * | &Open            |  1 |
+     * | &Help            |  2 |
+     * |—————————         |  3 |
+     * | &Window Spy      |  4 |
+     * | &Reload Script   |  5 |
+     * | &Edit Script     |  6 |
+     * |—————————         |  7 |
+     * | &Suspend Hotkeys |  8 |
+     * | &Pause Script    |  9 |
      * | E&xit            | 10 |
-     *
-     * - [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
-     * <table style = "border-collapse: collapse;">
-  <tr>
-    <th style="border: 1px solid white;">Menu Item</th>
-    <th style="border: 1px solid white;">ID</th>
-  </tr>
-  <tr>
-    <td style="border: 1px solid white;">&Open</td>
-    <td style="border: 1px solid white;">1</td>
-  </tr>
-  <!-- Add other rows as needed -->
-</table>
-
-
      */
     AddStandard() => EmptyString
 
